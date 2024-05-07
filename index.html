@@ -4,6 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>简单网页</title>
+<style>
+    /* 定义图片容器的样式 */
+    .image-stack {
+        display: flex; /* 使用Flexbox布局 */
+        flex-direction: column; /* 确保图片垂直堆叠 */
+        align-items: center; /* 水平居中图片 */
+        justify-content: center; /* 垂直居中图片 */
+        width: 1000px; /* 可以根据需要调整容器宽度 */
+        height: 100%; /* 容器高度设置为100%，以便图片可以在其中垂直居中 */
+        margin: 0 auto; /* 水平居中容器 */
+    }
+    /* 定义图片的样式 */
+    .image-stack img {
+        width: 100%; /* 图片宽度适应容器宽度 */
+        height: auto; /* 图片高度根据宽度自适应 */
+        margin-bottom: 10px; /* 可以根据需要调整图片间距 */
+    }
+</style>
 </head>
 <body>
     <h1>你好</h1>
@@ -11,6 +29,13 @@
     <img src="image1.jpg" alt="Image 1">
     <img src="image2.jpg" alt="Image 2">
     <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 1">
+    <img src="image5.jpg" alt="Image 2">
+    <img src="image6.jpg" alt="Image 3">
+    <img src="image7.jpg" alt="Image 1">
+    <img src="image8.jpg" alt="Image 2">
+    <img src="image9.jpg" alt="Image 3">
+    <img src="image10.jpg" alt="Image 1">
 </div>
 </body>
 </html>
